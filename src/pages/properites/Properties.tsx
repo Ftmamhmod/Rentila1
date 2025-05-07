@@ -8,6 +8,20 @@ const Properties = () => {
   if (isPending) {
     return <Loading />;
   }
+  if (!data || data.length === 0) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-center">
+          <h2 className="text-xl font-semibold text-gray-600">
+            No properties found
+          </h2>
+          <p className="text-gray-500 mt-2">
+            There are currently no properties available
+          </p>
+        </div>
+      </div>
+    );
+  }
   return (
     <div className="min-h-screen bg-cover bg-center bg-no-repeat py-8">
       <div className="container mx-auto px-15 p-15">
