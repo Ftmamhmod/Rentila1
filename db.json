@@ -1,0 +1,336 @@
+{
+  "properties": [
+    {
+      "id": 1,
+      "image": "./src/assets/images/1.jpeg",
+      "name": "Sunny Apartment",
+      "address": "123 Main St, London, UK",
+      "tenants": [
+        {
+          "id": 1,
+          "name": "John Doe",
+          "leaseStart": "23-10-2023",
+          "leaseEnd": "10-10-2024",
+          "rentAmount": "200",
+          "paymentStatus": "paid"
+        },
+        {
+          "id": 2,
+          "name": "Salma Khan",
+          "leaseStart": "29-1-2023",
+          "leaseEnd": "20-1-2024",
+          "rentAmount": "500",
+          "paymentStatus": "paid"
+        },
+        {
+          "id": 3,
+          "name": "Alice Johnson",
+          "leaseStart": "15-5-2023",
+          "leaseEnd": "15-5-2024",
+          "rentAmount": "900",
+          "paymentStatus": "unpaid"
+        }
+      ],
+      "rentDue": 1200
+    },
+    {
+      "id": 2,
+      "image": "./src/assets/images/2.jpeg",
+      "name": "Cozy Cottage",
+      "address": "456 Elm St, London, UK",
+      "tenants": [
+        {
+          "id": 4,
+          "name": "Bob Brown",
+          "leaseStart": "1-8-2023",
+          "leaseEnd": "1-8-2024",
+          "rentAmount": "600",
+          "paymentStatus": "unpaid"
+        },
+        {
+          "id": 5,
+          "name": "Charlie Davis",
+          "leaseStart": "10-10-2023",
+          "leaseEnd": "10-10-2024",
+          "rentAmount": "700",
+          "paymentStatus": "paid"
+        }
+      ],
+      "rentDue": 800
+    },
+    {
+      "id": 3,
+      "image": "./src/assets/images/3.jpg",
+      "name": "Luxury Villa",
+      "address": "789 Oak St, London, UK",
+      "tenants": [
+        {
+          "id": 6,
+          "name": "Mai Ali",
+          "leaseStart": "03-7-2023",
+          "leaseEnd": "4-6-2024",
+          "rentAmount": "200",
+          "paymentStatus": "paid"
+        },
+        {
+          "id": 7,
+          "name": "Jane Smith",
+          "leaseStart": "29-1-2023",
+          "leaseEnd": "20-1-2024",
+          "rentAmount": "500",
+          "paymentStatus": "paid"
+        },
+        {
+          "id": 8,
+          "name": "Alice Johnson",
+          "leaseStart": "15-5-2023",
+          "leaseEnd": "15-5-2024",
+          "rentAmount": "900",
+          "paymentStatus": "unpaid"
+        }
+      ],
+      "rentDue": 2000
+    },
+
+    {
+      "id": 4,
+      "name": "Modern Loft",
+      "image": "./src/assets/images/4.jpeg",
+      "address": "101 Pine St, London, UK",
+      "tenants": [
+        {
+          "id": 9,
+          "name": "Diana Evans",
+          "leaseStart": "20-12-2023",
+          "leaseEnd": "20-12-2024",
+          "rentAmount": "800",
+          "paymentStatus": "unpaid"
+        },
+        {
+          "id": 10,
+          "name": "Ethan Foster",
+          "leaseStart": "5-2-2023",
+          "leaseEnd": "5-2-2024",
+          "rentAmount": "300",
+          "paymentStatus": "paid"
+        }
+      ],
+      "rentDue": 1500
+    },
+    {
+      "id": 4,
+      "image": "./src/assets/images/5.jpeg",
+      "name": "Charming Bungalow",
+      "address": "202 Maple St, London, UK",
+      "tenants": [
+        {
+          "id": 11,
+          "name": "Fiona Green",
+          "leaseStart": "15-3-2023",
+          "leaseEnd": "15-3-2024",
+          "rentAmount": "400",
+          "paymentStatus": "unpaid"
+        },
+        {
+          "id": 12,
+          "name": "George Harris",
+          "leaseStart": "25-4-2023",
+          "leaseEnd": "25-4-2024",
+          "rentAmount": "500",
+          "paymentStatus": "paid"
+        },
+        {
+          "id": 13,
+          "name": "Hannah Ives",
+          "leaseStart": "30-6-2023",
+          "leaseEnd": "30-6-2024",
+          "rentAmount": "600",
+          "paymentStatus": "unpaid"
+        }
+      ],
+      "rentDue": 900
+    },
+    {
+      "id": 6,
+      "name": "Spacious Townhouse",
+      "image": "./src/assets/images/6.jpeg",
+      "address": "303 Birch St, London, UK",
+      "tenants": [
+        {
+          "id": 14,
+          "name": "Jack Smith",
+          "leaseStart": "23-10-2023",
+          "leaseEnd": "10-10-2024",
+          "rentAmount": "200",
+          "paymentStatus": "unpaid"
+        },
+        {
+          "id": 15,
+          "name": "Hannah Ives",
+          "leaseStart": "29-1-2023",
+          "leaseEnd": "20-1-2024",
+          "rentAmount": "500",
+          "paymentStatus": "paid"
+        }
+      ],
+      "rentDue": 1300
+    },
+    {
+      "id": 7,
+      "name": "Elegant Mansion",
+      "image": "./src/assets/images/8.jpg",
+      "address": "404 Cedar St, London, UK",
+      "tenants": [
+        {
+          "id": 16,
+          "name": "Alice Johnson",
+          "leaseStart": "15-5-2023",
+          "leaseEnd": "15-5-2024",
+          "rentAmount": "900",
+          "paymentStatus": "unpaid"
+        },
+        {
+          "id": 17,
+          "name": "Bob Brown",
+          "leaseStart": "1-8-2023",
+          "leaseEnd": "1-8-2024",
+          "rentAmount": "600",
+          "paymentStatus": "unpaid"
+        }
+      ],
+      "rentDue": 2500
+    },
+    {
+      "id": 8,
+      "name": "Rustic Cabin",
+      "image": "./src/assets/images/9.jpeg",
+      "address": "505 Spruce St, London, UK",
+      "tenants": [
+        {
+          "id": 18,
+          "name": "Charlie Davis",
+          "leaseStart": "10-10-2023",
+          "leaseEnd": "10-10-2024",
+          "rentAmount": "700",
+          "paymentStatus": "paid"
+        },
+        {
+          "id": 19,
+          "name": "Emma Wilson",
+          "leaseStart": "10-1-2023",
+          "leaseEnd": "20-1-2024",
+          "rentAmount": "800",
+          "paymentStatus": "unpaid"
+        }
+      ],
+      "rentDue": 700
+    },
+    {
+      "id": 9,
+      "name": "Stylish Studio",
+      "image": "./src/assets/images/10.jpeg",
+      "address": "606 Fir St, London, UK",
+      "tenants": [
+        {
+          "id": 20,
+          "name": "Ethan Foster",
+          "leaseStart": "5-2-2023",
+          "leaseEnd": "5-2-2024",
+          "rentAmount": "300",
+          "paymentStatus": "paid"
+        },
+        {
+          "id": 21,
+          "name": "Fiona Green",
+          "leaseStart": "15-3-2023",
+          "leaseEnd": "15-3-2024",
+          "rentAmount": "400",
+          "paymentStatus": "unpaid"
+        }
+      ],
+      "rentDue": 600
+    },
+    {
+      "id": 10,
+      "name": "Grand Estate",
+      "image": "./src/assets/images/11.jpeg",
+      "address": "707 Willow St, London, UK",
+      "tenants": [],
+      "rentDue": 3000
+    },
+    {
+      "id": 11,
+      "name": "Chic Apartment",
+      "image": "./src/assets/images/12.jpeg",
+      "address": "808 Ash St, London, UK",
+      "tenants": [
+        {
+          "id": 22,
+          "name": "George Harris",
+          "leaseStart": "25-4-2023",
+          "leaseEnd": "25-4-2024",
+          "rentAmount": "500",
+          "paymentStatus": "paid"
+        },
+        {
+          "id": 23,
+          "name": "Smith Johnson",
+          "leaseStart": "23-10-2023",
+          "leaseEnd": "10-10-2024",
+          "rentAmount": "200",
+          "paymentStatus": "unpaid"
+        }
+      ],
+      "rentDue": 1100
+    },
+    {
+      "id": 12,
+      "name": "Urban Flat",
+      "image": "./src/assets/images/12.jpeg",
+      "address": "909 Chestnut St, London, UK",
+      "tenants": [
+        {
+          "id": 24,
+          "name": "Jack Smith",
+          "leaseStart": "23-10-2023",
+          "leaseEnd": "10-10-2024",
+          "rentAmount": "200",
+          "paymentStatus": "unpaid"
+        }
+      ],
+      "rentDue": 950
+    },
+    {
+      "id": 13,
+      "name": "Seaside Retreat",
+      "image": "./src/assets/images/13.jpg",
+      "address": "1010 Palm St, London, UK",
+      "tenants": [],
+      "rentDue": 1200
+    },
+    {
+      "id": 14,
+      "name": "Countryside Villa",
+      "image": "./src/assets/images/14.jpeg",
+      "address": "1111 Oakwood St, London, UK",
+      "tenants": [],
+      "rentDue": 1800
+    },
+    {
+      "id": 15,
+      "name": "Downtown Loft",
+      "image": "./src/assets/images/15.jpeg",
+      "address": "1212 Maplewood St, London, UK",
+      "tenants": [],
+      "rentDue": 1400
+    },
+    {
+      "id": 16,
+      "name": "Suburban House",
+      "image": "./src/assets/images/16.jpeg",
+      "address": "1313 Birchwood St, London, UK",
+      "tenants": [],
+      "rentDue": 1600
+    }
+  ]
+}
