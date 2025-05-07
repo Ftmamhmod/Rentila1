@@ -3,10 +3,10 @@ import { useAuth } from "../context/AuthContext";
 import { useEffect } from "react";
 
 interface ProtectedRouteProps {
-  children: React.ReactNode;
+  children?: React.ReactNode;
 }
 
-const ProtectedRoute = ({ children }: { children: ProtectedRouteProps }) => {
+const ProtectedRoute = ({ children }: ProtectedRouteProps) => {
   const { isAuthenticated } = useAuth();
   const navigate = useNavigate();
 

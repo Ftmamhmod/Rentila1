@@ -7,6 +7,7 @@ const Tenants = () => {
   if (isPending) {
     return <Loading />;
   }
+
   return (
     <div className=" min-h-screen bg-cover bg-center bg-no-repeat py-8 ">
       <div className="container mx-auto px-15 p-15">
